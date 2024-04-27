@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+
+@layer reset, primeng;
+
+@layer reset {
+  button {
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  p.menubar:hover {
+    background-color: #f2295b;
+  }
+
+  div.p-menubar.p-component {
+    border: none;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  a.p-ripple.p.element.p.menuitem-link {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  a.p-ripple.p.element.p.menuitem-link:hover {
+    background-color: #f2295b;
+  }
+
+  span.p-button-label {
+    font-weight: 500;
+  }
+
+  button.p-ripple.p-element.p-button.p-component.p-button-secondary {
+    background-color: #ffffff;
+    border: none;
+    color: #415161;
+    border-radius: 0%;
+    border: 2px solid #415161;
+  }
+
+  button.p-ripple.p-element.p-button.p-component.p-button-primary {
+    background-color: #f2295b;
+    border: none;
+    color: #ffffff;
+    border-radius: 0%;
+    border: 2px solid #FFFFFF;
+  }
+
+  .container {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: column;
+  }
+}
