@@ -2,6 +2,8 @@
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
 
+@import "primeicons/primeicons.css";
+
 @tailwind components;
 @tailwind utilities;
 
@@ -56,7 +58,7 @@
     border: none;
     color: #ffffff;
     border-radius: 0%;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #ffffff;
   }
 
   .container {
