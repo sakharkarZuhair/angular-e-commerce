@@ -1,9 +1,10 @@
 # TO run the website
 I have used ngPrime fro components and tailwindcss for designing
+NOTE : The command I'm using is according to my Operating System which is fedora
 1 => Go to the root of the folder
 2 => Do check if you have the json-server or not if not then this command "sudo npm install -g json-server"
-3 => after that go to the locahost:3000 to see if the json-server is working or not
-4 => Some demo links are there and this project includes Home Screen, List Products Screen, Cart Items, Checkout Screen and congratulations screen.
+3 => after that go to the locahost:3000 to see if the json-server is working or not by running this command "json-server --watch db.json"
+4 => run "ng serve" Some demo links are there and this project includes Home Screen, List Products Screen, Cart Items, Checkout Screen and congratulations screen.
 
 # FatakPayAssignment
 
