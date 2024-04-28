@@ -1,3 +1,10 @@
+# TO run the website
+I have used ngPrime fro components and tailwindcss for designing
+1 => Go to the root of the folder
+2 => Do check if you have the json-server or not if not then this command "sudo npm install -g json-server"
+3 => after that go to the locahost:3000 to see if the json-server is working or not
+4 => Some demo links are there and this project includes Home Screen, List Products Screen, Cart Items, Checkout Screen and congratulations screen.
+
 # FatakPayAssignment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
