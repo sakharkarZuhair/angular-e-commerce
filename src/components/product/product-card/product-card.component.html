@@ -1,0 +1,31 @@
+<a routerLink="/{{ category }}/{{ id }}" class="no-underline"
+  ><p-card class="cursor-pointer relative">
+    <div class="h-[500px] w-full">
+      <img
+        class="w-full h-full object-cover"
+        src="{{ image }}"
+        alt="{{ title }}"
+      />
+    </div>
+    <div class="mt-4 flex flex-col justify-center items-center gap-2">
+      <p class="uppercase text-[#8f969e] font-semibold text-sm">
+        {{ category }}
+      </p>
+      <h5 class="text-lg font-bold text-[#415161]">{{ title }}</h5>
+      <div>
+        <p class="text-md font-bold">
+          <span class="text-[#bec0c2] line-through">₹{{ price }}</span>
+          <span class="text-lg ml-2 text-[#f2295b]"
+            >₹{{ disCounted_price }}</span
+          >
+        </p>
+      </div>
+    </div>
+    <div
+      *ngIf="isSale === true"
+      class="absolute top-6 right-3 h-[50px] w-[50px] bg-[#f2295b] rounded-full flex justify-center items-center"
+    >
+      <p class="text-sm text-white">SALE</p>
+    </div>
+  </p-card></a
+>

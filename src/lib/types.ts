@@ -15,6 +15,7 @@ export interface ProductTypes {
   description: string;
   stock: number;
   category: string;
-  id: number;
+  id: string;
   isSale?: boolean;
+  quantity?: undefined | number;
 }

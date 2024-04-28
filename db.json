@@ -16,7 +16,7 @@
         "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
         "stock": 100,
         "category": "tshirts",
-        "id": 1,
+        "id": "1",
         "isSale": true
       },
       {
@@ -34,7 +34,7 @@
         "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
         "stock": 100,
         "category": "tshirts",
-        "id": 2,
+        "id": "2",
         "isSale": true
       },
       {
@@ -52,7 +52,7 @@
         "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
         "stock": 100,
         "category": "tshirts",
-        "id": 3,
+        "id": "3",
         "isSale": true
       },
       {
@@ -70,7 +70,7 @@
         "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
         "stock": 0,
         "category": "tshirts",
-        "id": 4,
+        "id": "4",
         "isSale": true
       },
       {
@@ -88,7 +88,7 @@
         "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
         "stock": 80,
         "category": "tshirts",
-        "id": 5,
+        "id": "5",
         "isSale": true
       }
     ],
@@ -104,7 +104,7 @@
         "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
         "stock": 100,
         "category": "mugs",
-        "id": 6
+        "id": "6"
       },
       {
         "dispay_image": "https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2018/06/mug-yellow-300x300.jpg",
@@ -117,7 +117,7 @@
         "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
         "stock": 100,
         "category": "mugs",
-        "id": 7
+        "id": "7"
       },
       {
         "dispay_image": "https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2018/06/mug-blue-300x300.jpg",
@@ -130,7 +130,7 @@
         "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
         "stock": 100,
         "category": "mugs",
-        "id": 8
+        "id": "8"
       },
       {
         "dispay_image": "https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2018/06/mug-red-300x300.jpg",
@@ -143,7 +143,7 @@
         "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
         "stock": 0,
         "category": "mugs",
-        "id": 9
+        "id": "9"
       },
       {
         "dispay_image": "https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2018/06/mug-coffee.jpg",
@@ -156,8 +156,168 @@
         "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
         "stock": 80,
         "category": "mugs",
-        "id": 10
+        "id": "10"
       }
     ]
-  }
+  },
+  "tshirts": [
+    {
+      "dispay_image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1712996846_6229637.jpg?format=webp&w=480&dpr=1.0",
+      "images": [
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1712996846_5486533.jpg?format=webp&w=480&dpr=1.0",
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1712996846_1535056.jpg?format=webp&w=480&dpr=1.0",
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1712996846_7759122.jpg?format=webp&w=480&dpr=1.0"
+      ],
+      "name": "TSS Originals: Patriot",
+      "price": {
+        "discounted_price": 1099,
+        "price": 1299
+      },
+      "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
+      "stock": 100,
+      "category": "tshirts",
+      "id": "1",
+      "isSale": true
+    },
+    {
+      "dispay_image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1713616258_2123401.jpg?format=webp&w=480&dpr=1.0",
+      "images": [
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1713616258_3239371.jpg?format=webp&w=480&dpr=1.0",
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1713616258_2021921.jpg?format=webp&w=480&dpr=1.0",
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1713616258_9030200.jpg?format=webp&w=480&dpr=1.0"
+      ],
+      "name": "TSS Originals: Cactus",
+      "price": {
+        "discounted_price": 1199,
+        "price": 1399
+      },
+      "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
+      "stock": 100,
+      "category": "tshirts",
+      "id": "2",
+      "isSale": true
+    },
+    {
+      "dispay_image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1695283628_6557964.jpg?format=webp&w=480&dpr=1.0",
+      "images": [
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1695283628_8926164.jpg?format=webp&w=480&dpr=1.0",
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1712574491_5770981.jpg?format=webp&w=480&dpr=1.0",
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1695283628_4925949.jpg?format=webp&w=480&dpr=1.0"
+      ],
+      "name": "Plaid: Blue And White",
+      "price": {
+        "discounted_price": 1299,
+        "price": 1499
+      },
+      "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
+      "stock": 100,
+      "category": "tshirts",
+      "id": "3",
+      "isSale": true
+    },
+    {
+      "dispay_image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1692942049_3328705.jpg?format=webp&w=480&dpr=1.0",
+      "images": [
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1692942049_7047929.jpg?format=webp&w=480&dpr=1.0",
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1692942049_6926209.jpg?format=webp&w=480&dpr=1.0",
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1692942049_7549581.jpg?format=webp&w=480&dpr=1.0"
+      ],
+      "name": "Textured Stripes: Cerise",
+      "price": {
+        "discounted_price": 1099,
+        "price": 1399
+      },
+      "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
+      "stock": 0,
+      "category": "tshirts",
+      "id": "4",
+      "isSale": true
+    },
+    {
+      "dispay_image": "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1711615844_4182458.jpg?format=webp&w=480&dpr=1.0",
+      "images": [
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1711615844_1494575.jpg?format=webp&w=480&dpr=1.0",
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1711615844_3321158.jpg?format=webp&w=480&dpr=1.0",
+        "https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1711615844_2901427.jpg?format=webp&w=480&dpr=1.0"
+      ],
+      "name": "Jungle Book: Indie Print",
+      "price": {
+        "discounted_price": 1099,
+        "price": 1399
+      },
+      "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
+      "stock": 80,
+      "category": "tshirts",
+      "id": "5",
+      "isSale": true
+    }
+  ],
+
+  "mugs": [
+    {
+      "dispay_image": "https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2018/06/mug-coffee.jpg",
+
+      "name": "Black Printed Coffee Mug",
+      "price": {
+        "discounted_price": 1099,
+        "price": 1299
+      },
+      "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
+      "stock": 100,
+      "category": "mugs",
+      "id": "6"
+    },
+    {
+      "dispay_image": "https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2018/06/mug-yellow-300x300.jpg",
+
+      "name": "Blue Printed Coffee Mug",
+      "price": {
+        "discounted_price": 1199,
+        "price": 1399
+      },
+      "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
+      "stock": 100,
+      "category": "mugs",
+      "id": "7"
+    },
+    {
+      "dispay_image": "https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2018/06/mug-blue-300x300.jpg",
+
+      "name": "Green Printed Coffee Mug",
+      "price": {
+        "discounted_price": 1299,
+        "price": 1499
+      },
+      "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
+      "stock": 100,
+      "category": "mugs",
+      "id": "8"
+    },
+    {
+      "dispay_image": "https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2018/06/mug-red-300x300.jpg",
+
+      "name": "Yellow Printed Coffee Mug",
+      "price": {
+        "discounted_price": 1099,
+        "price": 1399
+      },
+      "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
+      "stock": 0,
+      "category": "mugs",
+      "id": "9"
+    },
+    {
+      "dispay_image": "https://websitedemos.net/custom-printing-04/wp-content/uploads/sites/222/2018/06/mug-coffee.jpg",
+
+      "name": "Brown Printed Coffee Mug",
+      "price": {
+        "discounted_price": 1099,
+        "price": 1399
+      },
+      "description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame.",
+      "stock": 80,
+      "category": "mugs",
+      "id": "10"
+    }
+  ]
 }
