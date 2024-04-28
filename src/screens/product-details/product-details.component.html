@@ -1,0 +1,124 @@
+<div class="w-full bg-[#67727d]/10 py-8">
+  <div
+    class="max-w-[1200px] w-full flex flex-col gap-4 justify-center items-center m-auto"
+    *ngIf="productData"
+  >
+    <div class="w-full flex items-start gap-8">
+      <div class="h-[750px] w-[50%]">
+        <img
+          class="h-full w-full object-cover shadow-md"
+          src="{{ productData.dispay_image }}"
+          alt=""
+        />
+      </div>
+      <div class="w-[50%] flex flex-col gap-4">
+        <h5 class="text-[#415161] font-bold text-2xl">
+          {{ productData.name }}
+        </h5>
+        <div>
+          <p class="text-[#415161] font-bold flex gap-2 items-center">
+            <span class="text-lg text-[#415161]/45 line-through"
+              >₹{{ productData.price.price }}</span
+            >
+            <span class="text-xl"
+              >₹{{ productData.price.discounted_price }}</span
+            >
+          </p>
+        </div>
+        <p class="text-md bg-[#f2295b] text-white">
+          {{ productData.description }}
+        </p>
+        <div class="flex items-center gap-4">
+          <div class="flex items-center gap-4">
+            <div
+              class="text-3xl text-gray-500 cursor-pointer"
+              (click)="handleQuantity('min')"
+            >
+              -
+            </div>
+
+            <p-iconField iconPosition="right">
+              <input
+                type="text"
+                pInputText
+                value="{{ productQuantity }}"
+                class="border-none w-[40px] bg-white px-4 py-2 text-[#415161] outline-none font-semibold"
+              />
+            </p-iconField>
+            <div
+              class="text-2xl text-gray-500 cursor-pointer"
+              (click)="handleQuantity('plus')"
+            >
+              +
+            </div>
+          </div>
+          <div *ngIf="removeCart">
+            <p-button
+              (onClick)="removeCartHandler(productData.id)"
+              label="Remove"
+              severity="secondary"
+            ></p-button>
+          </div>
+          <div *ngIf="!removeCart">
+            <p-button
+              (onClick)="addToCart()"
+              label="Add to Cart"
+              severity="secondary"
+            ></p-button>
+          </div>
+        </div>
+        <p class="text-lg text-[#415161]">
+          Category:
+          <span class="text-sm text-[#f2295b]">{{ productData.category }}</span>
+        </p>
+        <p class="text-lg text-[#415161]">
+          Stock:
+          <span class="text-sm text-[#f2295b]">{{ productData.stock }}</span>
+        </p>
+        <div>
+          <p class="font-bold text-[#415161] text-xl">
+            Free shipping on orders over ₹999!
+          </p>
+          <div class="mt-4 list-none flex flex-col gap-4">
+            <li class="flex items-center gap-2">
+              <div
+                class="h-[25px] w-[25px] flex items-center justify-center rounded-full bg-[#415161]"
+              >
+                <span class="pi pi-check text-sm text-white"></span>
+              </div>
+              <p class="text-[#415161]/80 font-semibold text-md">
+                No-Risk Money Back Guarantee
+              </p>
+            </li>
+            <li class="flex items-center gap-2">
+              <div
+                class="h-[25px] w-[25px] flex items-center justify-center rounded-full bg-[#415161]"
+              >
+                <span class="pi pi-check text-sm text-white"></span>
+              </div>
+              <p class="text-[#415161]/80 font-semibold text-md">
+                No Hassle Refunds
+              </p>
+            </li>
+            <li class="flex items-center gap-2">
+              <div
+                class="h-[25px] w-[25px] flex items-center justify-center rounded-full bg-[#415161]"
+              >
+                <span class="pi pi-check text-sm text-white"></span>
+              </div>
+              <p class="text-[#415161]/80 font-semibold text-md">
+                Secure Payments
+              </p>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full mt-8 bg-white p-8 shadow-md">
+      <p class="text-[#415161] text-xl font-bold">Description</p>
+      <p class="text-md font-normal text-[#415161]/60 mt-4">
+        {{ productData.description }}
+      </p>
+    </div>
+  </div>
+</div>

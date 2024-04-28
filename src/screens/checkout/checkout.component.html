@@ -1,0 +1,129 @@
+<div class="w-full bg-[#67727d]/10 py-8">
+  <div class="max-w-[1200px] w-full flex justify-center items-center m-auto">
+    <div class="w-full">
+      <h1 class="text-3xl text-[#415161] text-center font-bold">Checkout</h1>
+      <div class="flex justify-between items-start">
+        <form
+          class="mt-8"
+          #orderData="ngForm"
+          (ngSubmit)="orderNow(orderData.value)"
+        >
+          <div>
+            <p class="text-xl font-semibold text-[#415161]">
+              Customer Information
+            </p>
+            <p-inputGroup class="mt-2">
+              <input
+                class="border-none p-3 text-md rounded"
+                placeholder="user email"
+                ngModel
+                type="email"
+                name="email"
+              />
+            </p-inputGroup>
+          </div>
+
+          <div class="mt-4">
+            <p class="text-xl font-semibold text-[#415161]">Billing Details</p>
+            <div class="flex gap-4">
+              <p-inputGroup class="mt-2">
+                <input
+                  class="border-none p-3 text-md rounded"
+                  placeholder="First Name"
+                  ngModel
+                  type="text"
+                  name="firstName"
+                />
+              </p-inputGroup>
+              <p-inputGroup class="mt-2">
+                <input
+                  class="border-none p-3 text-md rounded"
+                  placeholder="Last Name"
+                  ngModel
+                  type="text"
+                  name="lastName"
+                />
+              </p-inputGroup>
+            </div>
+            <div class="w-full">
+              <p-inputGroup class="mt-2 w-full">
+                <input
+                  class="border-none p-3 w-full text-md rounded"
+                  placeholder="Address"
+                  ngModel
+                  type="text"
+                  name="address"
+                />
+              </p-inputGroup>
+            </div>
+            <div class="flex gap-4">
+              <p-inputGroup class="mt-2">
+                <input
+                  class="border-none p-3 text-md rounded"
+                  placeholder="State"
+                  ngModel
+                  type="text"
+                  name="state"
+                />
+              </p-inputGroup>
+              <p-inputGroup class="mt-2">
+                <input
+                  class="border-none p-3 text-md rounded"
+                  placeholder="City"
+                  ngModel
+                  type="text"
+                  name="city"
+                />
+              </p-inputGroup>
+            </div>
+          </div>
+          <div
+            class="flex justify-center items-center mt-8 w-full cursor-pointer"
+          >
+            <p-button type="ngSubmit" label="Secondary" severity="secondary"
+              >Place Order</p-button
+            >
+          </div>
+        </form>
+        <div class="bg-white p-8">
+          <p class="text-xl font-semibold text-[#415161]">Your Order</p>
+          <div>
+            <div class="flex flex-col gap-4 mt-4">
+              <div
+                *ngFor="let cart of cartProducts"
+                class="flex justify-between w-full gap-2"
+              >
+                <div class="h-[100px] w-[100px]">
+                  <img
+                    src="{{ cart.dispay_image }}"
+                    class="h-full w-full object-cover"
+                    alt="{{ cart.name }}"
+                  />
+                </div>
+                <div>
+                  <p class="text-sm font-medium text-[#415161]">
+                    {{ cart.name }}
+                  </p>
+                </div>
+                <div>
+                  <p class="mt-0 font-semibold text-sm">
+                    ₹{{ cart.price.discounted_price }}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col gap-3 mt-4">
+              <p>Total: {{ subTotal }}</p>
+              <p>Tax: {{ tax }}</p>
+              <p>GST: {{ gst }}</p>
+            </div>
+
+            <p class="mt-8 text-md font-semibold text-[#415161]">
+              SubTotal: {{ subTotal + tax + gst }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

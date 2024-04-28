@@ -1,1 +1,43 @@
-<p>all-products works!</p>
+<div
+  class="container flex justify-center items-center max-w-[1200px] w-full m-auto"
+>
+  <div class="w-full my-10">
+    <div>
+      <h2 class="text-[#415161]">TShirts</h2>
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 items-center justify-center mt-4 gap-10"
+      >
+        <section *ngFor="let tshirt of tshirts">
+          <app-product-card
+            [id]="tshirt.id"
+            [image]="tshirt.dispay_image"
+            [category]="tshirt.category"
+            [disCounted_price]="tshirt.price.discounted_price"
+            [price]="tshirt.price.price"
+            [isSale]="tshirt.isSale"
+            [title]="tshirt.name"
+          ></app-product-card>
+        </section>
+      </div>
+    </div>
+
+    <div class="my-10">
+      <h2 class="text-[#415161]">Mugs</h2>
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 items-center justify-center mt-4 gap-10"
+      >
+        <section *ngFor="let mug of mugs">
+          <app-product-card
+            [id]="mug.id"
+            [image]="mug.dispay_image"
+            [category]="mug.category"
+            [disCounted_price]="mug.price.discounted_price"
+            [price]="mug.price.price"
+            [isSale]="mug.isSale"
+            [title]="mug.name"
+          ></app-product-card>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
